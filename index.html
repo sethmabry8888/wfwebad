@@ -20,18 +20,28 @@
       padding: 25px;
     }
     
-  .carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      margin: auto;
-      min-height:200px;
-  }
-
-  /* Hide the carousel text when the screen is less than 600 pixels wide */
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; 
+    .carousel-inner img {
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+        min-height:200px;
     }
-  }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    p.body {
+      text-align: justify;
+      line-height: 1.5;
+    }
+
   </style>
 </head>
 <body>
@@ -80,7 +90,7 @@
       </div>
 
       <div class="item">
-        <img src="https://placehold.it/1200x400?text=Scary Storm Image" alt="Image">
+        <img src="./carousel-storm.jpg" alt="Image">
         <div class="carousel-caption">
           <h3>Be Safe</h3>
           <p>Live updates on emergency weather</p>
@@ -88,7 +98,7 @@
       </div>
 
       <div class="item">
-        <img src="https://placehold.it/1200x400?text=Playing Outside Image" alt="Image">
+        <img src="./carousel-sun.jpg" alt="Image">
         <div class="carousel-caption">
           <h3>Explore</h3>
           <p>Plan for what great weather holds</p>
@@ -96,7 +106,7 @@
       </div>
 
       <div class="item">
-        <img src="https://placehold.it/1200x400?text=Scrapa'da winsheld Image (forgetti)" alt="Image">
+        <img src="./carousel-snow.jpg" alt="Image">
         <div class="carousel-caption">
           <h3>Relax</h3>
           <p>We've got you covered</p>
@@ -124,7 +134,29 @@
     </div>
     <div class="col-sm-8">
       <div class="well">
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <p class="body">
+        Weather App for the Forgetful is an enhanced weather application designed to simplify, 
+        improve, and protect a user’s life. Many weather apps can provide data, such as temperature, 
+        highs and lows, wind speed, and precipitation. But what should an individual do with that data? 
+        What happens if that individual doesn’t watch the news or check their weather app to receive 
+        that information? This is what Weather App for the Forgetful was designed for.
+        <br><br>
+        The application will request weather data from an API based on the phone’s 
+        location. If there is a chance of ice or snow, a notification will remind the 
+        user to leave their windshield wipers up when they arrive home. This will prevent 
+        ice from forming on the wipers. Later that night, the application will send a notification 
+        to set the alarm 30 minutes earlier, to allow time for scraping ice off the windshield 
+        and for a safe and patient commute. In emergency situations, information will be provided 
+        on how to protect oneself or find the nearest emergency shelter. This information will be 
+        made common knowledge to someone who does not watch local news and will be accessible from 
+        simply clicking a notification.
+        <br><br>
+        Beyond these basic functions, the app may provide conveniences to the user, such as a 
+        notification if weather is expected to improve for a day. It may suggest wearing rainboots 
+        if there is heavy rain predicted. If there are high winds, it may suggest a raincoat 
+        instead of an umbrella. Our teams wants to make an app that will help you make decisions 
+        based on weather data.
+       </p>
       </div>
       <div class="well">
        <p>Some text..</p>
@@ -138,7 +170,7 @@
     </div>
     <div class="col-sm-8">
       <div class="well">
-       <p>Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. In nibh mauris cursus mattis molestie a iaculis at erat. Velit scelerisque in dictum non consectetur a. Eget mi proin sed libero. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tortor at auctor urna nunc id cursus. Morbi blandit cursus risus at ultrices. In fermentum et sollicitudin ac. Cras adipiscing enim eu turpis egestas pretium aenean. Nibh sit amet commodo nulla facilisi nullam. Sed arcu non odio euismod. At auctor urna nunc id cursus metus aliquam eleifend mi. Consectetur lorem donec massa sapien. Est ante in nibh mauris. Venenatis tellus in metus vulputate eu. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Tortor aliquam nulla facilisi cras fermentum. Mattis vulputate enim nulla aliquet porttitor lacus. Sit amet luctus venenatis lectus magna fringilla urna porttitor. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate.</p>
+        <p class="body">Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. In nibh mauris cursus mattis molestie a iaculis at erat. Velit scelerisque in dictum non consectetur a. Eget mi proin sed libero. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tortor at auctor urna nunc id cursus. Morbi blandit cursus risus at ultrices. In fermentum et sollicitudin ac. Cras adipiscing enim eu turpis egestas pretium aenean. Nibh sit amet commodo nulla facilisi nullam. Sed arcu non odio euismod. At auctor urna nunc id cursus metus aliquam eleifend mi. Consectetur lorem donec massa sapien. Est ante in nibh mauris. Venenatis tellus in metus vulputate eu. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Tortor aliquam nulla facilisi cras fermentum. Mattis vulputate enim nulla aliquet porttitor lacus. Sit amet luctus venenatis lectus magna fringilla urna porttitor. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate.</p>
       </div>
       <div class="well">
        <p>Some text..</p>
