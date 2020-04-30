@@ -43,12 +43,29 @@
     }
 
     h3 {
-      font-size: 3.5em;
+      font-size: 3em;
     }
 
     p.body {
       text-align: justify;
       line-height: 1.5;
+    }
+
+    body {
+      background: rgb(63,136,197);
+      background: linear-gradient(225deg, rgba(63,136,197,1) 0%, rgba(3,4,94,1) 100%);    
+    }
+
+    .title-text {
+      color: white;
+    }
+
+    .mid-title {
+      font-size: 1.7em;
+    }
+
+    .caption-text {
+      color: white;
     }
 
   </style>
@@ -93,7 +110,7 @@
       <div class="item active">
         <img src="./carousel-rain.jpg" alt="Image">
         <div class="carousel-caption">
-          <h1>Weather Forgetter</h1>
+          <h3>Make life simple</h3>
           <p>You can forget forgetting</p>
         </div>      
       </div>
@@ -134,63 +151,69 @@
     </a>
 </div>
   
-<div class="container text-center">    
-  <h3>WF v1.0</h3><br>
+<div class="container text-center">   
+  <h1 class="title-text">Weather Forgetter</h1><br>
   <div class="row">
     <div class="col-sm-4">
       <img src="./app-settings.png" class="img-responsive" style="width:100%" alt="Image">
-      <p>Information at your fingertips</p>
+      <p class="caption-text">Weather advice to light the way</p>
     </div>
     <div class="col-sm-8">
       <div class="well">
-       <p class="body">
-        Weather App for the Forgetful is an enhanced weather application designed to simplify, 
-        improve, and protect a user’s life. Many weather apps can provide data, such as temperature, 
-        highs and lows, wind speed, and precipitation. But what should an individual do with that data? 
-        What happens if that individual doesn’t watch the news or check their weather app to receive 
-        that information? This is what Weather App for the Forgetful was designed for.
-        <br><br>
-        The application will request weather data from an API based on the phone’s 
-        location. If there is a chance of ice or snow, a notification will remind the 
-        user to leave their windshield wipers up when they arrive home. This will prevent 
-        ice from forming on the wipers. Later that night, the application will send a notification 
-        to set the alarm 30 minutes earlier, to allow time for scraping ice off the windshield 
-        and for a safe and patient commute. In emergency situations, information will be provided 
-        on how to protect oneself or find the nearest emergency shelter. This information will be 
-        made common knowledge to someone who does not watch local news and will be accessible from 
-        simply clicking a notification.
-        <br><br>
-        Beyond these basic functions, the app may provide conveniences to the user, such as a 
-        notification if weather is expected to improve for a day. It may suggest wearing rainboots 
-        if there is heavy rain predicted. If there are high winds, it may suggest a raincoat 
-        instead of an umbrella. Our teams wants to make an app that will help you make decisions 
-        based on weather data.
-       </p>
-      </div>
-      <div class="well">
-       <p>Some text..</p>
+        <h2>Weather Forgetter can simplify, improve, and protect your life.</h2>
+        <br>
+
+        <p class="body">We all have our preferred source of weather information. 
+          Some of us might just look outside. For others, regularly checking an app may 
+          let us see the forecast, but...</p>
+
+        <h3 class="mid-title">What does a user do with all of this data?</h3>
+
+        <p class="body">A typical weather app can show temperature, highs and lows, precipitation, and maybe even wind speed.
+          When it comes to making important daily decisions, should a user be required to check their app daily and 
+          interpret this data? No.
+        </p>
+
+        <h3 class="mid-title">WF can help.</h3>
+
       </div>
     </div>
   </div>
   <div class="row m-5">
-    <div class="col-sm-4"> 
+    <div class="col-sm-4 m-2"> 
       <img src="./app-nav.png" class="img-responsive" style="width:100%" alt="Image">
-      <p>Customize your preferences.<br>What do you want to forget?</p>    
+      <p class="caption-text">Customize your preferences.<br>What do you want to forget?</p>    
     </div>
     <div class="col-sm-8">
       <div class="well">
-        <p class="body">Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. In nibh mauris cursus mattis molestie a iaculis at erat. Velit scelerisque in dictum non consectetur a. Eget mi proin sed libero. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tortor at auctor urna nunc id cursus. Morbi blandit cursus risus at ultrices. In fermentum et sollicitudin ac. Cras adipiscing enim eu turpis egestas pretium aenean. Nibh sit amet commodo nulla facilisi nullam. Sed arcu non odio euismod. At auctor urna nunc id cursus metus aliquam eleifend mi. Consectetur lorem donec massa sapien. Est ante in nibh mauris. Venenatis tellus in metus vulputate eu. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Tortor aliquam nulla facilisi cras fermentum. Mattis vulputate enim nulla aliquet porttitor lacus. Sit amet luctus venenatis lectus magna fringilla urna porttitor. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate.</p>
-      </div>
+
+        <p class="body">Many weather apps can provide data, such as temperature, 
+          highs and lows, wind speed, and precipitation. But what should an individual do with that data? 
+          What happens if that individual doesn’t watch the news or check their weather app to receive 
+          that information? This is what Weather App for the Forgetful was designed for.
+          <br><br>
+          The application will request weather data from an API based on the phone’s 
+          location. If there is a chance of ice or snow, a notification will remind the 
+          user to leave their windshield wipers up when they arrive home. This will prevent 
+          ice from forming on the wipers. Later that night, the application will send a notification 
+          to set the alarm 30 minutes earlier, to allow time for scraping ice off the windshield 
+          and for a safe and patient commute. In emergency situations, information will be provided 
+          on how to protect oneself or find the nearest emergency shelter. This information will be 
+          made common knowledge to someone who does not watch local news and will be accessible from 
+          simply clicking a notification.
+          <br><br>
+          Beyond these basic functions, the app may provide conveniences to the user, such as a 
+          notification if weather is expected to improve for a day. It may suggest wearing rainboots 
+          if there is heavy rain predicted. If there are high winds, it may suggest a raincoat 
+          instead of an umbrella. Our teams wants to make an app that will help you make decisions 
+          based on weather data.
+         </p>      </div>
       <div class="well">
        <p>Some text..</p>
       </div>
     </div>
   </div>
-</div><br>
-
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
+</div>
 
 </body>
 </html>
